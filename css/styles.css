@@ -1,1 +1,49 @@
+body {
+    overflow-x: none;
+    width:100vw;
+    background-image: url("img/mint.png");
+}
 
+.tagging {
+    background: red;
+    color: white;
+    min-width: 65px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+#contact-us {
+    background: lightblue;
+}
+
+#about-us {
+    background: rgb(211, 211, 211);
+}
+
+#header {
+    background-image: url("../img/milkbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00f;
+    height: 500px;
+    width: 100%;  
+}
+
+#heading{
+    color: #eee;
+    background-color: rgba(0,0,0,0.4);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translateY(-50%) translateX(-50%);
+    padding: 5%;
+}
+
+h2 {
+    display: inline;
+}
+
+
+.row{
+    padding-bottom: 30px;
+}
